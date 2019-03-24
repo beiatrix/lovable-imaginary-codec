@@ -1,5 +1,9 @@
 /* global styles */
 
+.App {
+	width: 100vw;
+}
+
 a {
 	text-decoration: none;
 	opacity: 0.75;
@@ -17,7 +21,7 @@ a.btn {
 	text-align: center;
 	background-color: #3f51b5;
 	opacity: 1;
-	padding: 1rem;
+	/* padding: 1rem; */
 }
 
 section {

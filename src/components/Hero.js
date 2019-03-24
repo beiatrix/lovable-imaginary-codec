@@ -6,7 +6,7 @@ export const Hero = props => {
   return (
     <section className="hero">
       <div className="background-image">
-        <img src={main} alt="main" />
+        {/* <img src={main} alt="main" /> */}
       </div>
       <div className="hero-content-area">
         <h1>Mountain Travel</h1>
