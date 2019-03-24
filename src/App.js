@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-// import main from './img/main.jpg';
-import {Header} from './components'
+import {Header, Hero} from './components'
 import './styles/App.css';
 
 class App extends Component {
@@ -8,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        {/* <img src={main} alt="main" /> */}
+        <Hero />
       </div>
     );
   }
