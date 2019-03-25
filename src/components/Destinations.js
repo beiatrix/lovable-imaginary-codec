@@ -3,6 +3,8 @@ import mtn1 from '../img/mountain1.jpg'
 import mtn2 from '../img/mountain2.jpg'
 import mtn3 from '../img/mountain3.jpg'
 import mtn4 from '../img/mountain4.jpg'
+import '../styles/Destinations.css'
+
 
 export const Destinations = props => {
   return (
@@ -12,8 +14,8 @@ export const Destinations = props => {
       <hr></hr>
       <ul class="grid">
         <li class="small"><img src={mtn1} alt="main" /></li>
-        <li class="small"><img src={mtn2} alt="main" /></li>
-        <li class="small"><img src={mtn3} alt="main" /></li>
+        <li class="large"><img src={mtn2} alt="main" /></li>
+        <li class="large"><img src={mtn3} alt="main" /></li>
         <li class="small"><img src={mtn4} alt="main" /></li>
       </ul>
     </section>
