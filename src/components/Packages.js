@@ -1,6 +1,5 @@
 import React from 'react'
 import {PackageItem} from './PackageItem'
-import '../styles/Packages.css'
 
 const data = [
   {

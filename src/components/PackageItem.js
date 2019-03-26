@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/PackageItem.css'
 
 export const PackageItem = props => {
   const {item} = props
