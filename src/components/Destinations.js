@@ -8,15 +8,15 @@ import '../styles/Destinations.css'
 
 export const Destinations = props => {
   return (
-    <section class="destinations">
-      <h3 class="title">Some of our destinations:</h3>
+    <section className="destinations">
+      <h3 className="title">Some of our destinations:</h3>
       <p>Tired of the ocean? Are the plains too plain? Come along with us on one of our mountain adventures. Here are some pictures from people who have had elevated experiences with us.</p>
       <hr></hr>
-      <ul class="grid">
-        <li class="small"><img src={mtn1} alt="main" /></li>
-        <li class="large"><img src={mtn2} alt="main" /></li>
-        <li class="large"><img src={mtn3} alt="main" /></li>
-        <li class="small"><img src={mtn4} alt="main" /></li>
+      <ul className="grid">
+        <li className="small" style={{backgroundImage: `url(${mtn1})`}}></li>
+        <li className="large" style={{backgroundImage: `url(${mtn2})`}}></li>
+        <li className="large" style={{backgroundImage: `url(${mtn3})`}}></li>
+        <li className="small" style={{backgroundImage: `url(${mtn4})`}}></li>
       </ul>
     </section>
   )
