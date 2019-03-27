@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Header, Hero, Destinations, Packages, Testimonials} from './components'
+import {Header, Hero, Destinations, Packages, Testimonials, Contact} from './components'
 import './styles/App.css';
 
 class App extends Component {
@@ -11,6 +11,7 @@ class App extends Component {
         <Destinations />
         <Packages />
         <Testimonials />
+        <Contact />
       </div>
     );
   }
