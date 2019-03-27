@@ -69,3 +69,10 @@ hr {
 	border: 0;
 	margin-bottom: 50px;
 }
+
+/* media queries */
+@media (max-width: 800px) {
+	section {
+		padding: 50px 20px;
+	}
+}
