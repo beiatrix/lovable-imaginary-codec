@@ -4,3 +4,14 @@
 	line-height: 1.5;
 	margin: 40px 0 25px;
 }
+
+@media (max-width: 800px) {
+	.quote {
+		font-size: 18px;
+		margin: 15px 0;
+	}
+
+	.author {
+		font-size: 14px;
+	}
+}
