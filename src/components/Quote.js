@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Quote.css'
 
 export const Quote = props => {
   const {quote} = props

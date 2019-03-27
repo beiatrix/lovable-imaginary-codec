@@ -7,7 +7,7 @@ const data = [
     author: "- Colt Steele"
   },
   {
-    quote: "I never understood why people cared so much about mountains. But then I went on one of these tours. Now I can't understand people who <em>don't</em> care about mountains!",
+    quote: "I never understood why people cared so much about mountains. But then I went on one of these tours. Now I can't understand people who *don't* care about mountains!",
     author: "- Elie Schoppik"
   },
   {
